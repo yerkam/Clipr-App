@@ -18,4 +18,8 @@ export default defineConfig({
   worker: { format: 'es' },
   optimizeDeps: { exclude: ['@ffmpeg/ffmpeg', '@ffmpeg/util'] },
   build: { target: 'es2022', chunkSizeWarningLimit: 1200 },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+  },
 })
