@@ -9,3 +9,4 @@ public/ffmpeg
 !.vscode/extensions.json
 .idea
 *.log
+coverage/
